@@ -26,6 +26,7 @@ jobs:
       - run: npm ci
       - run: npx quartz plugin install
       - run: npx quartz build --baseDir C-Users-user-my-family-book
+      - run: mkdir -p public/videos && cp content/videos/*.mp4 public/videos/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
