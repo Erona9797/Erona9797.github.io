@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "a0f6fad7e9312059",
+    "type": "split",
+    "children": [
+      {
+        "id": "4fab66caa117c6a4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5697827339c4414a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "我們家的故事完整版.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "我們家的故事完整版"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8f50685a3ea3d79f",
+    "type": "split",
+    "children": [
+      {
+        "id": "1707cee7143f527b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d96c6ec135b5df49",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "檔案瀏覽器"
+            }
+          },
+          {
+            "id": "713a41a58837c422",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜尋"
+            }
+          },
+          {
+            "id": "952bf708cade72f1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "書籤"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3d686bd9ec16e509",
+    "type": "split",
+    "children": [
+      {
+        "id": "a1c5ef5af4fd06b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed5b913856cccf5e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向連結"
+            }
+          },
+          {
+            "id": "3730d1354f72592d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "對外連結"
+            }
+          },
+          {
+            "id": "e2b13f5d6f94ac7d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "標籤"
+            }
+          },
+          {
+            "id": "afba045a4f9c7eab",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "所有屬性"
+            }
+          },
+          {
+            "id": "7200c61fa53e1b2f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大綱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "bases:建立新的 base": false
+    }
+  },
+  "active": "5697827339c4414a",
+  "lastOpenFiles": [
+    "我們家的故事.md",
+    "我們家的故事完整版.md",
+    "寶寶成長記錄(老大)/2010-07-24 不給人抱的愛睡豬.md",
+    "04_老大慢慢長大.md",
+    "未命名.md",
+    "未命名.epub",
+    "未命名.base",
+    "03_老大來了.md",
+    "02_兩個人的時光.md",
+    "01_目錄.md",
+    "00_封面.md",
+    "健康養身知識/2009-08-19 五樣好東西.md",
+    "09_健康生活.md",
+    "08_生活札記.md",
+    "07_育兒筆記.md",
+    "06_全家趴趴走.md",
+    "05_老二來了.md",
+    "未分類資料夾/2007-07-13 好美的基隆嶼.md",
+    "澳洲行/2006-07-15 7_15First day in Melbourne.md",
+    "首頁.md",
+    "2006-07-02 籌畫已久的澳洲行終於定案了.md",
+    "照片/部落格照片/聽喵喵側頭微笑 1.avi",
+    "照片/部落格照片/說謝謝.wmv",
+    "照片/部落格照片/媗宇學阿嬤哄妹睡覺(三柳哥).avi",
+    "照片/部落格照片/媗宇才剛會唱歌.avi",
+    "照片/部落格照片/為了喝一杯水哭一個半小時.avi",
+    "照片/部落格照片/兩姊妹唱掌聲響起.avi",
+    "照片/部落格照片/如晏唱歌(三個半月).avi",
+    "照片/部落格照片/如晏11個月爬下床.avi",
+    "照片/部落格照片/因為小寶跑步很快，咚咚咚咚的衝撞力極大.md",
+    "寶寶成長紀錄(老二)/2010-12-21 逗笑~~滿三個半月.md",
+    "照片/部落格照片/電鍋蒸布丁.jpg",
+    "照片/部落格照片/離開碧砂漁港.jpg",
+    "照片/部落格照片/袋鼠.jpg",
+    "照片/部落格照片/藥物過敏.jpg",
+    "照片/部落格照片/終於成為好朋友.jpg",
+    "照片/部落格照片/紅屁股.jpg",
+    "照片/部落格照片/突然下起了 大雪.jpg",
+    "照片/部落格照片/白雪公主的家1.jpg",
+    "照片/部落格照片/玫瑰疹.jpg",
+    "照片/部落格照片/熊熊與kitty.jpg",
+    "寶寶成長紀錄(老二)/2010-11-23 很會玩~  會對話 唷~~才滿兩個月.md",
+    "寶寶成長記錄(老大)/2009-10-12 2009-10-12 10個月 ~~恰北北.md",
+    "寶寶成長記錄(老大)/2009-06-13 打預防針~~(滿六個月).md"
+  ]
+}
