@@ -30,6 +30,7 @@ jobs:
       - run: mkdir -p public/admin && cp admin/* public/admin/
       - uses: actions/upload-pages-artifact@v3
         with:
+          name: github-pages-${{ github.run_id }}
           path: public
 
   deploy:
