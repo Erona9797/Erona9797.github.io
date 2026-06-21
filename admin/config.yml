@@ -3,6 +3,9 @@ backend:
   repo: Erona9797/Erona9797.github.io
   branch: main
 
+site_url: https://erona9797.github.io
+display_url: https://erona9797.github.io
+
 media_folder: "content/images"
 public_folder: "/images"
 
