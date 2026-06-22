@@ -5,8 +5,7 @@ title: ""
 enableToc: false
 
 ---
-
-![[IMG\_9433.jpg]]
+![[IMG_9433.jpg]]
 
 # 📖 我們家的故事
 
