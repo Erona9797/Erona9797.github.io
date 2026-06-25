@@ -1,0 +1,190 @@
+quartz\build.ts:24:import { minimatch } from "minimatch"
+quartz\build.ts:148:        if (minimatch(pathStr, pattern)) {
+quartz\cfg.ts:101:  /** Page frame name (e.g. "default", "full-width", "minimal"). Defaults to "default". */
+quartz\components\frames\index.ts:4:import { MinimalFrame } from "./MinimalFrame"
+quartz\components\frames\index.ts:10:export { MinimalFrame } from "./MinimalFrame"
+quartz\components\frames\index.ts:24:  minimal: MinimalFrame,
+quartz\components\frames\MinimalFrame.tsx:4: * Minimal page frame — no sidebars, no header/footer chrome. Only the
+quartz\components\frames\MinimalFrame.tsx:11:export const MinimalFrame: PageFrame = {
+quartz\components\frames\MinimalFrame.tsx:12:  name: "minimal",
+quartz\components\frames\MinimalFrame.tsx:16:        <div class="center minimal">
+quartz\components\frames\types.ts:37:  /** Unique name for this frame (e.g. "default", "full-width", "minimal") */
+quartz\components\Head.tsx:37:      (r) => r.loadTime === "beforeDOMReady" && r.contentType === "external",
+quartz\components\Head.tsx:86:          .filter((resource) => resource.loadTime === "beforeDOMReady")
+quartz\components\registry.ts:58:   * if the same constructor was already called with equivalent options.
+quartz\components\registry.ts:93:          // Check if this constructor was already instantiated (with any options).
+quartz\components\renderPage.tsx:88:        loadTime: "beforeDOMReady",
+quartz\components\renderPage.tsx:92:        loadTime: "beforeDOMReady",
+quartz\components\renderPage.tsx:104:    loadTime: "afterDOMReady",
+quartz\components\renderPage.tsx:370:        .filter((resource) => resource.loadTime === "afterDOMReady")
+quartz\components\scripts\popover.inline.ts:52:  // dont refetch if there's already a popover
+quartz\components\scripts\util.ts:41:  // reading the body can only be done once, so we need to clone the response
+quartz\components\scripts\util.ts:42:  // to allow the caller to read it if it's was not a redirect
+quartz\i18n\locales\ar-SA.ts:36:    readerMode: {
+quartz\i18n\locales\ar-SA.ts:61:      readingTime: ({ minutes }) =>
+quartz\i18n\locales\ar-SA.ts:62:        minutes == 1
+quartz\i18n\locales\ar-SA.ts:64:          : minutes == 2
+quartz\i18n\locales\ar-SA.ts:66:            : `${minutes} دقائق للقراءة`,
+quartz\i18n\locales\ca-ES.ts:32:    readerMode: {
+quartz\i18n\locales\ca-ES.ts:60:      readingTime: ({ minutes }) => `Es llegeix en ${minutes} min`,
+quartz\i18n\locales\cs-CZ.ts:32:    readerMode: {
+quartz\i18n\locales\cs-CZ.ts:60:      readingTime: ({ minutes }) => `${minutes} min čtení`,
+quartz\i18n\locales\de-DE.ts:32:    readerMode: {
+quartz\i18n\locales\de-DE.ts:60:      readingTime: ({ minutes }) => `${minutes} Min. Lesezeit`,
+quartz\i18n\locales\definition.ts:35:    readerMode: {
+quartz\i18n\locales\definition.ts:63:      readingTime: (variables: { minutes: number }) => string
+quartz\i18n\locales\en-GB.ts:32:    readerMode: {
+quartz\i18n\locales\en-GB.ts:33:      title: "Reader mode",
+quartz\i18n\locales\en-GB.ts:60:      readingTime: ({ minutes }) => `${minutes} min read`,
+quartz\i18n\locales\en-US.ts:32:    readerMode: {
+quartz\i18n\locales\en-US.ts:33:      title: "Reader mode",
+quartz\i18n\locales\en-US.ts:60:      readingTime: ({ minutes }) => `${minutes} min read`,
+quartz\i18n\locales\es-ES.ts:32:    readerMode: {
+quartz\i18n\locales\es-ES.ts:39:      createdWith: "Creado con",
+quartz\i18n\locales\es-ES.ts:60:      readingTime: ({ minutes }) => `Se lee en ${minutes} min`,
+quartz\i18n\locales\fa-IR.ts:33:    readerMode: {
+quartz\i18n\locales\fa-IR.ts:61:      readingTime: ({ minutes }) => `زمان تقریبی مطالعه: ${minutes} دقیقه`,
+quartz\i18n\locales\fi-FI.ts:15:      success: "Onnistuminen",
+quartz\i18n\locales\fi-FI.ts:18:      failure: "Epäonnistuminen",
+quartz\i18n\locales\fi-FI.ts:32:    readerMode: {
+quartz\i18n\locales\fi-FI.ts:60:      readingTime: ({ minutes }) => `${minutes} min lukuaika`,
+quartz\i18n\locales\fr-FR.ts:32:    readerMode: {
+quartz\i18n\locales\fr-FR.ts:60:      readingTime: ({ minutes }) => `${minutes} min de lecture`,
+quartz\i18n\locales\he-IL.ts:33:    readerMode: {
+quartz\i18n\locales\he-IL.ts:61:      readingTime: ({ minutes }) => `${minutes} דקות קריאה`,
+quartz\i18n\locales\hu-HU.ts:32:    readerMode: {
+quartz\i18n\locales\hu-HU.ts:60:      readingTime: ({ minutes }) => `${minutes} perces olvasás`,
+quartz\i18n\locales\id-ID.ts:32:    readerMode: {
+quartz\i18n\locales\id-ID.ts:60:      readingTime: ({ minutes }) => `${minutes} menit baca`,
+quartz\i18n\locales\it-IT.ts:32:    readerMode: {
+quartz\i18n\locales\it-IT.ts:61:      readingTime: ({ minutes }) => (minutes === 1 ? "1 minuto" : `${minutes} minuti`),
+quartz\i18n\locales\ja-JP.ts:32:    readerMode: {
+quartz\i18n\locales\ja-JP.ts:60:      readingTime: ({ minutes }) => `${minutes} min read`,
+quartz\i18n\locales\kk-KZ.ts:32:    readerMode: {
+quartz\i18n\locales\kk-KZ.ts:60:      readingTime: ({ minutes }) => `${minutes} мин оқу`,
+quartz\i18n\locales\ko-KR.ts:32:    readerMode: {
+quartz\i18n\locales\ko-KR.ts:60:      readingTime: ({ minutes }) => `${minutes} min read`,
+quartz\i18n\locales\lt-LT.ts:15:      success: "Sėkmingas",
+quartz\i18n\locales\lt-LT.ts:18:      failure: "Nesėkmingas",
+quartz\i18n\locales\lt-LT.ts:32:    readerMode: {
+quartz\i18n\locales\lt-LT.ts:60:      readingTime: ({ minutes }) => `${minutes} min skaitymo`,
+quartz\i18n\locales\nb-NO.ts:32:    readerMode: {
+quartz\i18n\locales\nb-NO.ts:60:      readingTime: ({ minutes }) => `${minutes} min lesning`,
+quartz\i18n\locales\nl-NL.ts:32:    readerMode: {
+quartz\i18n\locales\nl-NL.ts:60:      readingTime: ({ minutes }) =>
+quartz\i18n\locales\nl-NL.ts:61:        minutes === 1 ? "1 minuut leestijd" : `${minutes} minuten leestijd`,
+quartz\i18n\locales\pl-PL.ts:32:    readerMode: {
+quartz\i18n\locales\pl-PL.ts:60:      readingTime: ({ minutes }) => `${minutes} min. czytania `,
+quartz\i18n\locales\pt-BR.ts:32:    readerMode: {
+quartz\i18n\locales\pt-BR.ts:60:      readingTime: ({ minutes }) => `Leitura de ${minutes} min`,
+quartz\i18n\locales\ro-RO.ts:29:      lightMode: "Modul luminos",
+quartz\i18n\locales\ro-RO.ts:32:    readerMode: {
+quartz\i18n\locales\ro-RO.ts:60:      readingTime: ({ minutes }) =>
+quartz\i18n\locales\ro-RO.ts:61:        minutes == 1 ? `lectură de 1 minut` : `lectură de ${minutes} minute`,
+quartz\i18n\locales\ru-RU.ts:32:    readerMode: {
+quartz\i18n\locales\ru-RU.ts:61:      readingTime: ({ minutes }) => `время чтения ~${minutes} мин.`,
+quartz\i18n\locales\th-TH.ts:32:    readerMode: {
+quartz\i18n\locales\th-TH.ts:60:      readingTime: ({ minutes }) => `อ่านราว ${minutes} นาที`,
+quartz\i18n\locales\tr-TR.ts:32:    readerMode: {
+quartz\i18n\locales\tr-TR.ts:60:      readingTime: ({ minutes }) => `${minutes} dakika okuma süresi`,
+quartz\i18n\locales\uk-UA.ts:32:    readerMode: {
+quartz\i18n\locales\uk-UA.ts:60:      readingTime: ({ minutes }) => `${minutes} хв читання`,
+quartz\i18n\locales\vi-VN.ts:32:    readerMode: {
+quartz\i18n\locales\vi-VN.ts:60:      readingTime: ({ minutes }) => `${minutes} phút đọc`,
+quartz\i18n\locales\zh-CN.ts:32:    readerMode: {
+quartz\i18n\locales\zh-CN.ts:60:      readingTime: ({ minutes }) => `${minutes}分钟阅读`,
+quartz\i18n\locales\zh-TW.ts:32:    readerMode: {
+quartz\i18n\locales\zh-TW.ts:60:      readingTime: ({ minutes }) => `閱讀時間約 ${minutes} 分鐘`,
+quartz\plugins\emitters\componentResources.ts:76:  // minify with esbuild
+quartz\plugins\emitters\componentResources.ts:78:    minify: true,
+quartz\plugins\emitters\componentResources.ts:402:        minify: true,
+quartz\plugins\emitters\componentResources.ts:412:        const minified = transform({
+quartz\plugins\emitters\componentResources.ts:415:          minify: true,
+quartz\plugins\emitters\componentResources.ts:420:        const hash = hashContent(minified)
+quartz\plugins\emitters\componentResources.ts:429:          content: minified,
+quartz\plugins\emitters\componentResources.ts:447:            minify: true,
+quartz\plugins\emitters\componentResources.ts:471:        const minified = await joinScripts([jsResource.script])
+quartz\plugins\emitters\componentResources.ts:472:        const hash = hashContent(minified)
+quartz\plugins\emitters\componentResources.ts:473:        const loadTimePrefix = jsResource.loadTime === "beforeDOMReady" ? "before" : "after"
+quartz\plugins\emitters\componentResources.ts:482:          content: minified,
+quartz\plugins\emitters\helpers.ts:5:import { Readable } from "stream"
+quartz\plugins\emitters\helpers.ts:11:  content: string | Buffer | Readable
+quartz\plugins\index.ts:31:      loadTime: "afterDOMReady",
+quartz\plugins\loader\config-loader.ts:42:function readPluginsJson(): QuartzPluginsJson | null {
+quartz\plugins\loader\config-loader.ts:47:  const raw = fs.readFileSync(configPath, "utf-8")
+quartz\plugins\loader\config-loader.ts:200:async function readManifestFromPackageJson(source: PluginSource): Promise<PluginManifest | null> {
+quartz\plugins\loader\config-loader.ts:207:    const pkg = JSON.parse(fs.readFileSync(pkgPath, "utf-8"))
+quartz\plugins\loader\config-loader.ts:235:  return (await readManifestFromPackageJson(source)) ?? (await resolvePluginManifest(source))
+quartz\plugins\loader\config-loader.ts:241:  const json = readPluginsJson()
+quartz\plugins\loader\config-loader.ts:331:      (processingCategories as readonly string[]).includes(c),
+quartz\plugins\loader\config-loader.ts:380:                ` Could not determine category for plugin "${extractPluginName(entry.source)}". Skipping.`,
+quartz\plugins\loader\config-loader.ts:623:  const json = readPluginsJson()
+quartz\plugins\loader\config-loader.ts:760:      // Try common naming patterns
+quartz\plugins\loader\config-loader.ts:909:  // Stable sort by priority (items already arrive sorted, so equal priorities preserve order)
+quartz\plugins\loader\gitLoader.ts:159:    const pkg = JSON.parse(fs.readFileSync(pkgPath, "utf-8"))
+quartz\plugins\loader\gitLoader.ts:265:  const lines = fs.readFileSync(gitignorePath, "utf-8").split("\n")
+quartz\plugins\loader\gitLoader.ts:286:  const plugins = fs.readdirSync(PLUGINS_CACHE_DIR).filter((entry) => {
+quartz\plugins\loader\gitLoader.ts:295:      const pkg = JSON.parse(fs.readFileSync(pkgPath, "utf-8"))
+quartz\plugins\loader\gitLoader.ts:322:  const pkg = JSON.parse(fs.readFileSync(pkgPath, "utf-8"))
+quartz\plugins\loader\gitLoader.ts:428:      // Check if existing entry is already a symlink to the right place
+quartz\plugins\loader\gitLoader.ts:433:            console.log(styleText("cyan", `→`), `Plugin ${spec.name} already linked`)
+quartz\plugins\loader\gitLoader.ts:472:  // Check if already installed
+quartz\plugins\loader\gitLoader.ts:480:          console.log(styleText("cyan", `→`), `Plugin ${spec.name} already installed`)
+quartz\plugins\loader\gitLoader.ts:488:          console.log(styleText("cyan", `→`), `Plugin ${spec.name} already installed`)
+quartz\plugins\loader\gitLoader.ts:600:      const pkg = JSON.parse(fs.readFileSync(pkgJsonPath, "utf-8"))
+quartz\plugins\loader\gitLoader.ts:652:      const pkg = JSON.parse(fs.readFileSync(pkgJsonPath, "utf-8"))
+quartz\plugins\loader\gitLoader.ts:691:  const plugins = fs.readdirSync(PLUGINS_CACHE_DIR)
+quartz\plugins\loader\gitLoader.ts:766:  "readline",
+quartz\plugins\loader\gitLoader.ts:780:  "worker_threads",
+quartz\plugins\loader\gitLoader.ts:820:      const pkg = JSON.parse(fs.readFileSync(quartzPkgPath, "utf-8"))
+quartz\plugins\loader\gitLoader.ts:863:    const content = fs.readFileSync(entryPoint, "utf-8")
+quartz\plugins\loader\gitLoader.ts:870:        const pkg = JSON.parse(fs.readFileSync(pkgPath, "utf-8"))
+quartz\plugins\loader\gitLoader.ts:911:  const pluginDirs = fs.readdirSync(PLUGINS_CACHE_DIR).filter((name) => {
+quartz\plugins\loader\gitLoader.ts:934:    const dtsContent = fs.readFileSync(distIndex, "utf-8")
+quartz\plugins\loader\index.ts:26:const MINIMUM_QUARTZ_VERSION = "4.5.0"
+quartz\plugins\loader\index.ts:35:      minor: parseInt(parts[1]) || 0,
+quartz\plugins\loader\index.ts:45:  if (cur.minor > req.minor) return true
+quartz\plugins\loader\index.ts:46:  if (cur.minor < req.minor) return false
+quartz\plugins\loader\index.ts:220:            (processingCategories as readonly string[]).includes(c),
+quartz\plugins\loader\index.ts:222:        : (processingCategories as readonly string[]).includes(categoryOrCategories)
+quartz\plugins\loader\index.ts:337:          (processingCategories as readonly string[]).includes(c),
+quartz\plugins\loader\index.ts:339:      : (processingCategories as readonly string[]).includes(categoryOrCategories)
+quartz\plugins\loader\index.ts:499:export { satisfiesVersion, MINIMUM_QUARTZ_VERSION }
+quartz\plugins\loader\types.ts:120: * - Inline plugin object (already loaded plugin instance)
+quartz\plugins\loader\types.ts:177:  /** Override the page frame template (e.g. "default", "full-width", "minimal") */
+quartz\plugins\pageTypes\404.ts:31:  frame: "minimal",
+quartz\plugins\types.ts:116:  /** Optional page frame name (e.g. "default", "full-width", "minimal"). Defaults to "default". */
+quartz\plugins\types.ts:136:  /** Optional page frame name (e.g. "default", "full-width", "minimal"). Defaults to "default". */
+quartz\processors\parse.ts:9:import { read } from "to-vfile"
+quartz\processors\parse.ts:92:        const file = await read(fp)
+quartz\processors\parse.ts:145:const clamp = (num: number, min: number, max: number) =>
+quartz\processors\parse.ts:146:  Math.min(Math.max(Math.round(num), min), max)
+quartz\processors\parse.ts:158:  log.start(`Parsing input files using ${concurrency} threads`)
+quartz\processors\parse.ts:170:      minWorkers: "max",
+quartz\processors\parse.ts:172:      workerType: "thread",
+quartz\processors\parse.ts:215:      await pool.terminate()
+quartz\util\log.ts:2:import readline from "readline"
+quartz\util\log.ts:10:  private readonly spinnerChars = ["⠋", "⠙", "⠹", "⠸", "⠼", "⠴", "⠦", "⠧", "⠇", "⠏"]
+quartz\util\log.ts:13:    const isInteractiveTerminal =
+quartz\util\log.ts:15:    this.verbose = verbose || !isInteractiveTerminal
+quartz\util\log.ts:26:        readline.clearLine(process.stdout, 0)
+quartz\util\log.ts:27:        readline.cursorTo(process.stdout, 0)
+quartz\util\log.ts:50:      readline.clearLine(process.stdout, 0)
+quartz\util\log.ts:51:      readline.cursorTo(process.stdout, 0)
+quartz\util\path.test.ts:88:        `after transforming ${inp}, '${actual}' was not '${expected}'`,
+quartz\util\path.test.ts:152:  test("transformInternalLink", () => {
+quartz\util\path.test.ts:183:      path.transformInternalLink,
+quartz\util\path.ts:22:  transformInternalLink,
+quartz\util\resources.tsx:6:  loadTime: "beforeDOMReady" | "afterDOMReady"
+quartz\util\slugCollisions.ts:11: * (glob order), which is deterministic. `winner` is always the last entry.
+quartz\util\slugCollisions.ts:51: * Format a list of collisions as a single human-readable warning block.
+quartz\util\sourcemap.ts:12:        map: fs.readFileSync(realSource, "utf8"),
+quartz\util\theme.ts:152:  const min = Math.min(r, g, b)
+quartz\util\theme.ts:153:  const l = (max + min) / 2
+quartz\util\theme.ts:155:  if (max === min) return { h: 0, s: 0, l: Math.round(l * 100) }
+quartz\util\theme.ts:157:  const d = max - min
+quartz\util\theme.ts:158:  const s = l > 0.5 ? d / (2 - max - min) : d / (max + min)
+quartz\util\trace.ts:3:import { isMainThread } from "workerpool"
+quartz\util\trace.ts:35:  if (!isMainThread) {
+quartz\worker.ts:15:// only called from worker thread
+quartz\worker.ts:27:// only called from worker thread
