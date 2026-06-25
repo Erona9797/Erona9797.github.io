@@ -1,3 +1,11 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+body[data-slug="index"] h1:first-of-type,
+body[data-slug="index"] p:has(time),
+body[data-slug="index"] .content-meta,
+body[data-slug="index"] .page-header,
+body[data-slug="index"] .article-title {
+  display: none !important;
+}
