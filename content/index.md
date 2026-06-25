@@ -1,8 +1,9 @@
 ---
-title: "# 📖 我們家的故事"
+title: "📖 我們家的故事"
 enableToc: false
 frame: minimal
 ---
+# 📖 我們家的故事
 
 ![[IMG_9433.jpg]]
 
