@@ -1,12 +1,9 @@
-# 📖 我們家的故事
-
 ---
-
-title: ""
+title: "# 📖 我們家的故事"
 enableToc: false
 frame: minimal
-
 ---
+
 ![[IMG_9433.jpg]]
 
 2006年~今天  我們一家人的回憶錄
