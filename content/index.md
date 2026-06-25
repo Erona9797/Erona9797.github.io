@@ -1,9 +1,7 @@
 ﻿---
-
 title: ""
-
 enableToc: false
-
+frame: minimal
 ---
 ![[IMG_9433.jpg]]
 
