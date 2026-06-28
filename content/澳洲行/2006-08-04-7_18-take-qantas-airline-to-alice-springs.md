@@ -7,3 +7,4 @@ After three hours fly, we arrived Alice springs at noon. Alice springs 是澳洲
 ![[抵達不像沙漠的 Alice Springs 機場.jpg]]
 
 
+
